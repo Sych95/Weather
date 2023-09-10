@@ -1,0 +1,24 @@
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.city-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px auto;
+}
+
+.result{
+    text-align: center;
+}
+
+.list-item {
+    padding: 6px;
+    box-shadow: 3px 3px ;
+    background-color: rgb(255, 222, 222);
+    border-radius: 10px;
+}
