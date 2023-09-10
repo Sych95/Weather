@@ -12,9 +12,9 @@ cities.forEach(item => {
             let cityData = null;
             if(e.target.getAttribute('data-state')){
                 state = e.target.getAttribute('data-state');
-                str = city+','+state+','+country;
+                cityData = city+','+state+','+country;
             } else {
-                str = city+','+country;
+                cityData = city+','+country;
             }
 
             getWeather(cityData)
